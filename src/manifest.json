@@ -1,21 +1,21 @@
 {
   "name" : "Open SoundCloud Coverart",
   "version" : "0.0.2",
-	"manifest_version": 2,
+  "manifest_version": 2,
   "permissions" : [
     "contextMenus",
     "https://soundcloud.com/*"
-	],
+  ],
   "content_scripts":[ {
     "matches": ["https://soundcloud.com/*"],
     "js": [
       "js/content.js"
     ]
   }],
-	"background" : {
-		"scripts": [
-			"js/main.js"
-		]
+  "background" : {
+    "scripts": [
+      "js/main.js"
+    ]
   },
   "icons" : {
     "16" : "icon-128.png",

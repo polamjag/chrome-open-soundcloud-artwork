@@ -1,5 +1,4 @@
-chrome.runtime.onStartup.addListener(
-  function() {
+(function() {
     var menuId = chrome.contextMenus.create({
       type: 'normal',
       id: 'main',
@@ -22,5 +21,4 @@ chrome.runtime.onStartup.addListener(
         );
       }
     );
-  }
-);
+})();

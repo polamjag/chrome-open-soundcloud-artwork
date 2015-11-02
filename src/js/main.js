@@ -1,4 +1,4 @@
-chrome.runtime.onInstalled.addListener(
+chrome.runtime.onStartup.addListener(
   function() {
     var menuId = chrome.contextMenus.create({
       type: 'normal',

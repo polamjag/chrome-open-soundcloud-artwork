@@ -19,9 +19,7 @@
     }
   ],
   "background": {
-    "service_worker": [
-      "js/main.js"
-    ]
+    "service_worker": "js/main.js"
   },
   "icons": {
     "16": "icon-128.png",

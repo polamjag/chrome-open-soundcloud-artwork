@@ -1,8 +1,6 @@
 {
-  "name" : "Open SoundCloud Coverart",
-  "version" : "0.1.1",
-  "permissions" : [
-    "contextMenus",
+  "name": "Open SoundCloud Coverart",
+  "version": "0.1.1",
   "manifest_version": 3,
   "permissions": [
     "contextMenus"
@@ -25,8 +23,8 @@
       "js/main.js"
     ]
   },
-  "icons" : {
-    "16" : "icon-128.png",
-    "128" : "icon-128.png"
+  "icons": {
+    "16": "icon-128.png",
+    "128": "icon-128.png"
   }
 }
